@@ -35,7 +35,7 @@ function plot_handle = plotSE3(g, varargin)
     temp_list = quiver_prop_list;
     
     if mod(arg_count ,2) ~= 0
-        error(message('plot_SE3:InvalidNumInputs'));
+        error(message('plotSE3():InvalidNumInputs'));
     end
     
     for i = 1:2:arg_count
